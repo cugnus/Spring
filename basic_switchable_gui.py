@@ -8,7 +8,7 @@ import threading
 import matplotlib.pyplot as plt
 
 # GUI-related imports (only used if GUI is enabled)
-USE_GUI = False  # Set to True to enable GUI, False for non-GUI mode
+USE_GUI = True  # Set to True to enable GUI, False for non-GUI mode
 if USE_GUI:
     import tkinter as tk
     from tkinter import messagebox
